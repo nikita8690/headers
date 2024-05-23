@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #fff;
+}
+.navbar {
+  width: 98%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 18px;
+  position: fixed;
+}
+.logo {
+  width: 200px;
+  cursor: pointer;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #ff7268;
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after {
+  width: 100%;
+}
+.login {
+  background-image: linear-gradient(to right, #fc4538, #f7977f);
+  padding: 11px;
+  border-radius: 5px;
+}
+.img {
+  width: 600px;
+  margin-left: 610px;
+}
+.tenc {
+  margin-top: -315px;
+  margin-left: 40px;
+  font-size: xx-large;
+}
+.text {
+  margin-left: 150px;
+  font-size: xxx-large;
+  margin-top: -12.8px;
+}
+.coding {
+  font-weight: bolder;
+  color: #1aecf5;
+  margin-top: -430px;
+}
+.paragraph {
+  color: #303142;
+  width: 610px;
+  font-size: 22.8px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.contanior {
+  margin-top: -40px;
+}
+.background-img1 {
+  width: 615px;
+  height: 590px;
+  margin-top: 300px;
+  background: none;
+}
+.background-img2 {
+  height: 500px;
+  width: 700px;
+  margin-top: -515px;
+  margin-left: 30px;
+  background: none;
+}
+.tenc-coding {
+  color: #fc574c;
+  font-weight: bolder;
+}
+.coding-text {
+  margin-left: 770px;
+  margin-top: -550px;
+  font-size: xx-large;
+  font-weight: 60px;
+}
+.font {
+  margin-left: 770px;
+  margin-top: 30px;
+  width: 430px;
+  overflow: wrap;
+  font-size: large;
+  color: #3b3b3bfb;
+  margin-bottom: 90px;
+}
+.background {
+  width: 1000px;
+  margin-top: 250px;
+  margin-left: 200px;
+}
+.background-1 {
+  margin-top: -900px;
+  margin-left: 5px;
+}
